@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c37d557-0c6c-45a4-8f53-ed620543ea99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/comment/comment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/comment/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/comment/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/comment/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/comment/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/comment/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/comment/spiders/tencentVideo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MySpiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MySpiders.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novel/novel/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/novel/novel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novel/novel/spiders/zhuxian.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/spiders/zhuxian.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +14,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/novel/novel/spiders/zhuxian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novel/log.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,8 +43,10 @@
         <option value="$PROJECT_DIR$/novel/novel/middlewares.py" />
         <option value="$PROJECT_DIR$/novel/novel/items.py" />
         <option value="$PROJECT_DIR$/novel/novel/spiders/daomubiji.py" />
-        <option value="$PROJECT_DIR$/novel/novel/pipelines.py" />
         <option value="$PROJECT_DIR$/novel/novel/settings.py" />
+        <option value="$PROJECT_DIR$/novel/novel/pipelines.py" />
+        <option value="$PROJECT_DIR$/novel/log.log" />
+        <option value="$PROJECT_DIR$/novel/novel/spiders/zhuxian.py" />
       </list>
     </option>
   </component>
@@ -46,6 +60,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -56,26 +71,25 @@
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,6 +125,7 @@
       <workItem from="1558848103666" duration="2860000" />
       <workItem from="1558851046506" duration="2593000" />
       <workItem from="1558961583092" duration="115000" />
+      <workItem from="1558961859088" duration="4386000" />
     </task>
     <task id="LOCAL-00001" summary="盗墓笔记小说爬虫">
       <created>1558850929227</created>
@@ -126,16 +141,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558851213130</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="盗墓笔记小说爬虫">
+      <created>1558961987972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558961987972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5568000" />
+    <option name="totallyTimeSpent" value="9954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="987" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17518637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17678382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -166,23 +189,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="盗墓笔记小说爬虫" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/novel/log.log" />
     <entry file="file://$PROJECT_DIR$/novel/novel/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="114" column="36" lean-forward="true" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
           <folding>
             <element signature="e#169#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="e#194#226#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -194,17 +206,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/novel/novel/spiders/daomubiji.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="e#194#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/spiders/zhuxian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>

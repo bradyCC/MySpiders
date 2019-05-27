@@ -22,9 +22,11 @@ class NovelPipeline(object):
         print('This spider is starting!')
 
     def process_item(self, item, spider):
-        print(item)
-        # bookInfo = dict(item)
-        # self.post.insert(bookInfo)
+        if spider.name == 'daomubiji':
+            bookInfo = dict(item)
+            self.post.insert(bookInfo)
+        if spider.name == 'zhuxian':
+            print(item)
         return item
 
     def close_spider(self, spider):
