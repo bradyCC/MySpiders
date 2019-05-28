@@ -12,24 +12,30 @@ class ZhuxianSpider(CrawlSpider):
     start_urls = ['http://www.swang8.com/72']
 
     def parse_start_url(self, response):
+        print(response.url)
         pass
 
     rules = (
         Rule(LinkExtractor(allow=r'/72/\d+.html'), callback='parse_item', follow=True),
-        Rule(LinkExtractor(allow=r"/novelsearch/reader/transcode/siteid/(.*?)'"), callback='parse_detail'),
     )
 
-
     def parse_item(self, response):
-        # content = response.xpath('//script//text()').re(r"'/(.*?)',{}")
         item = NovelItem()
-        # list = response.xpath('//body')
-        #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
-        #item['name'] = response.xpath('//div[@id="name"]').get()
-        #item['description'] = response.xpath('//div[@id="description"]').get()
-        return item
+        title = response.xpath('//title/text()')
+        item['bookName'] = title.get().split(' ')[0]
+        item['chapterNum'] = title.get().split(' ')[1]
+        item['chapterName'] = title.get().split(' ')[2]
+        content = response.xpath('//script//text()').re(r"'/(.*?)',{}")
+        for contentItem in content:
+            nextUrl = 'http://www.swang8.com/' + contentItem
+            # item['chapterUrl'] = nextUrl
+            yield scrapy.Request(
+                nextUrl,
+                callback=self.parse_detail,
+                meta={'item': item}
+            )
 
     def parse_detail(self, response):
-        print(json.loads(response.text)['info'])
-        item = NovelItem()
-        return item
+        item = response.meta['item']
+        item['chapterContent'] = json.loads(response.text)['info']
+        yield item

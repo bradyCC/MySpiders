@@ -25,8 +25,12 @@ class NovelPipeline(object):
         if spider.name == 'daomubiji':
             bookInfo = dict(item)
             self.post.insert(bookInfo)
+        return item
+
+    def process_item(self, item, spider):
         if spider.name == 'zhuxian':
-            print(item)
+            bookInfo = dict(item)
+            self.post.insert(bookInfo)
         return item
 
     def close_spider(self, spider):
