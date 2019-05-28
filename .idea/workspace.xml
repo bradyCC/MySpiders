@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dongguan/log.log" afterDir="false" />
+    <list default="true" id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="阳光热线问政平台爬虫">
+      <change afterPath="$PROJECT_DIR$/sina/log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/sina/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/sina/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/sina/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/sina/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/sina/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/sina/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina/sina/spiders/sinaClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MySpiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MySpiders.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/comment/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/comment/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dongguan/dongguan/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/dongguan/dongguan/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dongguan/dongguan/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/dongguan/dongguan/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dongguan/dongguan/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/dongguan/dongguan/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dongguan/dongguan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dongguan/dongguan/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dongguan/dongguan/spiders/sun.py" beforeDir="false" afterPath="$PROJECT_DIR$/dongguan/dongguan/spiders/sun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/novel/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/items.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +24,40 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dongguan/dongguan/spiders/sun.py">
+        <entry file="file://$PROJECT_DIR$/sina/sina/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sina/sina/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="e#194#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sina/sina/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sina/sina/spiders/sinaClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -32,11 +65,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sina/sina/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+              <folding>
+                <element signature="e#169#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dongguan/log.log">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="204">
-              <caret line="12" column="77" selection-end-line="15804" selection-end-column="25" />
+        <entry file="file://$PROJECT_DIR$/sina/log.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sina/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -54,6 +104,7 @@
     <findStrings>
       <find>Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; HTC T528t Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30; 360browser(securitypay,securityinstalled); 360(android,uppayplugin); 360 Aphone Browser (2.0.4)</find>
       <find>imageUrl</find>
+      <find>xapth</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,6 +144,13 @@
         <option value="$PROJECT_DIR$/dongguan/dongguan/pipelines.py" />
         <option value="$PROJECT_DIR$/dongguan/dongguan/settings.py" />
         <option value="$PROJECT_DIR$/dongguan/log.log" />
+        <option value="$PROJECT_DIR$/sina/sina/settings.py" />
+        <option value="$PROJECT_DIR$/sina/sina/pipelines.py" />
+        <option value="$PROJECT_DIR$/sina/main.py" />
+        <option value="$PROJECT_DIR$/sina/sina/items.py" />
+        <option value="$PROJECT_DIR$/sina/sina/spiders/sinaClass.py" />
+        <option value="$PROJECT_DIR$/sina/sina/middlewares.py" />
+        <option value="$PROJECT_DIR$/sina/log.log" />
       </list>
     </option>
   </component>
@@ -117,6 +175,24 @@
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
               <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="sina" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,17 +349,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559028874453</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="阳光热线问政平台爬虫">
+      <created>1559033788649</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559033788649</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33265000" />
+    <option name="totallyTimeSpent" value="36759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13752665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13752665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,7 +380,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.39587852" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.39587852" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.29934925" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,13 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dongguan/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -522,33 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dongguan/dongguan/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
-          <folding>
-            <element signature="e#169#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dongguan/dongguan/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dongguan/dongguan/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#194#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dongguan/dongguan/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -556,23 +605,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dongguan/log.log">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="138">
+          <caret line="15791" column="18" lean-forward="true" selection-start-line="15791" selection-start-column="18" selection-end-line="15791" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dongguan/dongguan/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="95" selection-start-line="95" selection-end-line="130" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dongguan/dongguan/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="105" selection-start-line="105" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dongguan/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dongguan/dongguan/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#194#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina/sina/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dongguan/dongguan/spiders/sun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="30" column="76" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="76" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dongguan/log.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="204">
-          <caret line="12" column="77" selection-end-line="15804" selection-end-column="25" />
+    <entry file="file://$PROJECT_DIR$/sina/sina/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#194#208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina/sina/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina/sina/spiders/sinaClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina/sina/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
