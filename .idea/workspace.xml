@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c37d557-0c6c-45a4-8f53-ed620543ea99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/novel/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/novel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/novel/spiders/zhuxian.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/spiders/zhuxian.py" afterDir="false" />
-    </list>
+    <list default="true" id="5c37d557-0c6c-45a4-8f53-ed620543ea99" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/novel/novel/spiders/zhuxian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="440">
+              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -125,7 +120,7 @@
       <workItem from="1558848103666" duration="2860000" />
       <workItem from="1558851046506" duration="2593000" />
       <workItem from="1558961583092" duration="115000" />
-      <workItem from="1558961859088" duration="4386000" />
+      <workItem from="1558961859088" duration="4429000" />
     </task>
     <task id="LOCAL-00001" summary="盗墓笔记小说爬虫">
       <created>1558850929227</created>
@@ -148,11 +143,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558961987972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="诛仙小说爬虫">
+      <created>1558966549823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558966549823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9954000" />
+    <option name="totallyTimeSpent" value="9997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="987" extended-state="0" />
@@ -186,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="盗墓笔记小说爬虫" />
-    <option name="LAST_COMMIT_MESSAGE" value="盗墓笔记小说爬虫" />
+    <MESSAGE value="诛仙小说爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="诛仙小说爬虫" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/novel/novel/middlewares.py">
@@ -238,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/novel/spiders/zhuxian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="440">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
