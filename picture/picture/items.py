@@ -8,8 +8,8 @@
 import scrapy
 
 
-class CommentItem(scrapy.Item):
+class PictureItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    url = scrapy.Field()
-    comment = scrapy.Field()
+    name = scrapy.Field()
+    imageUrl = scrapy.Field()
+    imagePath = scrapy.Field()

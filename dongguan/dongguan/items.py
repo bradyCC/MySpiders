@@ -8,8 +8,9 @@
 import scrapy
 
 
-class CommentItem(scrapy.Item):
+class DongguanItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    url = scrapy.Field()
-    comment = scrapy.Field()
+    title = scrapy.Field()   # 帖子标题
+    number = scrapy.Field()  # 帖子编号
+    content = scrapy.Field() # 帖子内容
+    url = scrapy.Field()     # 帖子url地址

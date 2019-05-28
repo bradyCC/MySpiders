@@ -5,8 +5,9 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-from scrapy import signals
 import random
+from scrapy import signals
+
 
 class NovelSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -112,6 +113,5 @@ class RandomUserAgentMiddleware(object):
 class CheckUserAgentMiddleware(object):
 
     def process_response(self, request, response, spider):
-        # print(dir(response.request))
         print(request.headers["User-Agent"])
         return response
