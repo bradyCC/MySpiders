@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 import scrapy
+import json
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from comment.items import CommentItem
-import json
+
 
 class PythoncommentSpider(CrawlSpider):
     name = 'pythonComment'
