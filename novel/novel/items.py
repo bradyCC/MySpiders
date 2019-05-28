@@ -16,4 +16,3 @@ class NovelItem(scrapy.Item):
     chapterName = scrapy.Field()
     chapterUrl = scrapy.Field()
     chapterContent = scrapy.Field()
-    pass

@@ -128,4 +128,4 @@ USER_AGENT_LIST = [
 MONGODB_HOST = '127.0.0.1'
 MONGODB_PORT = 27017
 MONGODB_DBNAME = 'MySpider'
-MONGODB_DOCNAME = 'sunshine' # sunshine
+MONGODB_DOCNAME = 'sunshine' # sunshine阳光热线
