@@ -9,7 +9,7 @@ import pymongo
 from scrapy.conf import settings
 
 
-class NovelPipeline(object):
+class BosszhipinPipeline(object):
 
     def __init__(self):
         host = settings['MONGODB_HOST']
@@ -23,20 +23,8 @@ class NovelPipeline(object):
         print('This spider is starting!')
 
     def process_item(self, item, spider):
-        if spider.name == 'daomubiji':
-            bookInfo = dict(item)
-            self.post.insert(bookInfo)
-        return item
-
-    def process_item(self, item, spider):
-        if spider.name == 'zhuxian':
-            bookInfo = dict(item)
-            self.post.insert(bookInfo)
-        return item
-
-    def process_item(self, item, spider):
-        if spider.name == 'quanzhigaoshou':
-            print(item)
+        dataInfo = dict(item)
+        self.post.insert(dataInfo)
         return item
 
     def close_spider(self, spider):

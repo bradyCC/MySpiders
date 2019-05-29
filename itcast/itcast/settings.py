@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for novel project
+# Scrapy settings for itcast project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,10 +9,10 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'novel'
+BOT_NAME = 'itcast'
 
-SPIDER_MODULES = ['novel.spiders']
-NEWSPIDER_MODULE = 'novel.spiders'
+SPIDER_MODULES = ['itcast.spiders']
+NEWSPIDER_MODULE = 'itcast.spiders'
 
 LOG_LEVEL = 'WARNING'
 LOG_FILE = './log.log'
@@ -48,16 +48,16 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'novel.middlewares.NovelSpiderMiddleware': 543,
-# }
+#SPIDER_MIDDLEWARES = {
+#    'itcast.middlewares.ItcastSpiderMiddleware': 543,
+#}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'novel.middlewares.NovelDownloaderMiddleware': 543,
-    'novel.middlewares.RandomUserAgentMiddleware': 544,
-    'novel.middlewares.CheckUserAgentMiddleware': 545,
+    'itcast.middlewares.ItcastDownloaderMiddleware': 543,
+    'itcast.middlewares.RandomUserAgentMiddleware': 544,
+    'itcast.middlewares.CheckUserAgentMiddleware': 545,
 }
 
 # Enable or disable extensions
@@ -69,7 +69,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'novel.pipelines.NovelPipeline': 300,
+    'itcast.pipelines.ItcastPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -124,12 +124,3 @@ USER_AGENT_LIST = [
     "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 SE 2.X MetaSr 1.0",
     "Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; HTC T528t Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30; 360browser(securitypay,securityinstalled); 360(android,uppayplugin); 360 Aphone Browser (2.0.4)",
 ]
-
-MONGODB_HOST = '127.0.0.1'
-MONGODB_PORT = 27017
-MONGODB_DBNAME = 'MySpider'
-MONGODB_DOCNAME = 'quanzhigaoshou' # daomubiji盗墓笔记 zhuxian诛仙 quanzhigaoshou全职高手
-
-REDIS_HOST = '217.0.0.1'
-REDIS_PORT = 6379
-REDIS_URL = None

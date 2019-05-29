@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for novel project
+# Scrapy settings for tencent project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,10 +9,10 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'novel'
+BOT_NAME = 'tencent'
 
-SPIDER_MODULES = ['novel.spiders']
-NEWSPIDER_MODULE = 'novel.spiders'
+SPIDER_MODULES = ['tencent.spiders']
+NEWSPIDER_MODULE = 'tencent.spiders'
 
 LOG_LEVEL = 'WARNING'
 LOG_FILE = './log.log'
@@ -48,16 +48,16 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'novel.middlewares.NovelSpiderMiddleware': 543,
-# }
+#SPIDER_MIDDLEWARES = {
+#    'tencent.middlewares.TencentSpiderMiddleware': 543,
+#}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'novel.middlewares.NovelDownloaderMiddleware': 543,
-    'novel.middlewares.RandomUserAgentMiddleware': 544,
-    'novel.middlewares.CheckUserAgentMiddleware': 545,
+    'tencent.middlewares.TencentDownloaderMiddleware': 543,
+    'tencent.middlewares.RandomUserAgentMiddleware': 544,
+    'tencent.middlewares.CheckUserAgentMiddleware': 545,
 }
 
 # Enable or disable extensions
@@ -69,7 +69,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'novel.pipelines.NovelPipeline': 300,
+    'tencent.pipelines.TencentPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -128,8 +128,4 @@ USER_AGENT_LIST = [
 MONGODB_HOST = '127.0.0.1'
 MONGODB_PORT = 27017
 MONGODB_DBNAME = 'MySpider'
-MONGODB_DOCNAME = 'quanzhigaoshou' # daomubiji盗墓笔记 zhuxian诛仙 quanzhigaoshou全职高手
-
-REDIS_HOST = '217.0.0.1'
-REDIS_PORT = 6379
-REDIS_URL = None
+MONGODB_DOCNAME = 'TCrecruit'   # 腾讯招聘

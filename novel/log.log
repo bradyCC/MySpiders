@@ -1,0 +1,324 @@
+
+2019-05-29 17:56:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:57:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:57:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:57:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:57:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:58:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:58:57 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:59:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:59:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 17:59:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:00:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:01:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:01:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:01:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:02:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:02:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:02:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:03:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+2019-05-29 18:03:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://81xzw.upanbook.com/book/16628/1.html> (referer: https://81xzw.upanbook.com/book/16628/)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Python37\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\MyWork\MySpiders\novel\novel\spiders\quanzhigaoshou.py", line 24, in parse_item
+    item['bookName'] = response.xpath('//div[@class="novel"]/h1/text()').get().split(' ')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
