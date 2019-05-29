@@ -34,5 +34,10 @@ class NovelPipeline(object):
             self.post.insert(bookInfo)
         return item
 
+    def process_item(self, item, spider):
+        if spider.name == 'quanzhigaoshou':
+            print(item)
+        return item
+
     def close_spider(self, spider):
         print('This spider is end!')
