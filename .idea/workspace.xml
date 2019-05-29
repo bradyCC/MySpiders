@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="阳光热线问政平台爬虫">
-      <change afterPath="$PROJECT_DIR$/sina/log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/sina/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/sina/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/sina/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/sina/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/sina/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/sina/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sina/sina/spiders/sinaClass.py" afterDir="false" />
+    <list default="true" id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="新浪网站导航分类爬虫">
+      <change afterPath="$PROJECT_DIR$/movie/log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie/spiders/douban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/scrapy.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MySpiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MySpiders.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -24,40 +24,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina/sina/items.py">
+        <entry file="file://$PROJECT_DIR$/movie/movie/spiders/douban.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina/sina/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#194#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina/sina/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina/sina/spiders/sinaClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+            <state relative-caret-position="418">
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -66,27 +36,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina/sina/middlewares.py">
+        <entry file="file://$PROJECT_DIR$/movie/movie/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+            <state relative-caret-position="442">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#169#182#0" expanded="true" />
+                <element signature="e#194#208#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sina/log.log">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/log.log">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movie/movie/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina/main.py">
+        <entry file="file://$PROJECT_DIR$/movie/movie/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -151,6 +139,13 @@
         <option value="$PROJECT_DIR$/sina/sina/spiders/sinaClass.py" />
         <option value="$PROJECT_DIR$/sina/sina/middlewares.py" />
         <option value="$PROJECT_DIR$/sina/log.log" />
+        <option value="$PROJECT_DIR$/movie/movie/settings.py" />
+        <option value="$PROJECT_DIR$/movie/main.py" />
+        <option value="$PROJECT_DIR$/movie/movie/middlewares.py" />
+        <option value="$PROJECT_DIR$/movie/movie/items.py" />
+        <option value="$PROJECT_DIR$/movie/movie/spiders/douban.py" />
+        <option value="$PROJECT_DIR$/movie/log.log" />
+        <option value="$PROJECT_DIR$/movie/movie/pipelines.py" />
       </list>
     </option>
   </component>
@@ -174,25 +169,31 @@
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
-              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
-              <item name="dongguan" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="sina" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
+              <item name="novel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +284,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c37d557-0c6c-45a4-8f53-ed620543ea99" name="Default Changelist" comment="" />
+      <changelist id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="" />
       <created>1558848102375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -292,6 +293,7 @@
       <workItem from="1558851046506" duration="2593000" />
       <workItem from="1558961583092" duration="115000" />
       <workItem from="1558961859088" duration="4386000" />
+      <workItem from="1559090688388" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="盗墓笔记小说爬虫">
       <created>1558850929227</created>
@@ -356,17 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559033788649</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新浪网站导航分类爬虫">
+      <created>1559037509531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559037509531</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36759000" />
+    <option name="totallyTimeSpent" value="40852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13752665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,7 +388,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.39587852" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.29934925" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.36334056" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,7 +407,8 @@
     <MESSAGE value="斗鱼图片爬虫" />
     <MESSAGE value="新增执行爬虫程序文件" />
     <MESSAGE value="阳光热线问政平台爬虫" />
-    <option name="LAST_COMMIT_MESSAGE" value="阳光热线问政平台爬虫" />
+    <MESSAGE value="新浪网站导航分类爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="新浪网站导航分类爬虫" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MySpiders$zhuxian.coverage" NAME="zhuxian Coverage Results" MODIFIED="1559005127044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/novel/novel/spiders" />
@@ -426,41 +435,16 @@
     <entry file="file://$PROJECT_DIR$/comment/comment/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/comment/comment/spiders/tencentVideo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="61" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/comment/comment/spiders/tencentVideo.py" />
     <entry file="file://$PROJECT_DIR$/comment/log.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/log.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="95" selection-start-line="95" selection-end-line="130" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picture/picture/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/picture/main.py" />
     <entry file="file://$PROJECT_DIR$/picture/log.log">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comment/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -520,20 +504,6 @@
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -605,14 +575,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dongguan/log.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="138">
-          <caret line="15791" column="18" lean-forward="true" selection-start-line="15791" selection-start-column="18" selection-end-line="15791" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dongguan/log.log" />
     <entry file="file://$PROJECT_DIR$/dongguan/dongguan/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -710,6 +673,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sina/log.log">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="95" selection-start-line="95" selection-end-line="130" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#194#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="105" selection-start-line="105" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/movie/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/movie/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/movie/spiders/douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/movie/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#194#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/movie/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
