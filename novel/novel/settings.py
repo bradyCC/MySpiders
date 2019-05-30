@@ -17,6 +17,9 @@ NEWSPIDER_MODULE = 'novel.spiders'
 LOG_LEVEL = 'WARNING'
 LOG_FILE = './log.log'
 
+# DOWNLOAD_DELAY = 3
+COOKIES_ENABLES = False
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36'
 
@@ -56,8 +59,8 @@ ROBOTSTXT_OBEY = False
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'novel.middlewares.NovelDownloaderMiddleware': 543,
-    'novel.middlewares.RandomUserAgentMiddleware': 544,
-    'novel.middlewares.CheckUserAgentMiddleware': 545,
+    # 'novel.middlewares.RandomUserAgentMiddleware': 544,
+    # 'novel.middlewares.CheckUserAgentMiddleware': 545,
 }
 
 # Enable or disable extensions
