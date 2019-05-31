@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/novel/novel/spiders/douluodalu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MySpiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MySpiders.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="全职高手小说爬虫">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novel/douluodalu.json" beforeDir="false" afterPath="$PROJECT_DIR$/novel/douluodalu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/novel/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/novel/novel/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/novel/novel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novel/quanzhigaoshou.json" beforeDir="false" afterPath="$PROJECT_DIR$/novel/quanzhigaoshou.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +19,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novel/novel/items.py">
+        <entry file="file://$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novel/novel/spiders/douluodalu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="226">
+              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -42,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/novel/novel/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#194#208#0" expanded="true" />
               </folding>
@@ -52,13 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py">
+        <entry file="file://$PROJECT_DIR$/novel/novel/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="101" lean-forward="true" selection-start-line="31" selection-start-column="101" selection-end-line="31" selection-end-column="101" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="219">
+              <caret line="125" column="51" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -66,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -87,6 +75,9 @@
       <find>imageUrl</find>
       <find>xapth</find>
       <find>re</find>
+      <find>quanzhigaoshou</find>
+      <find>chapterContent</find>
+      <find>return item</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -98,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sina/main.py" />
         <option value="$PROJECT_DIR$/sina/sina/items.py" />
         <option value="$PROJECT_DIR$/sina/sina/spiders/sinaClass.py" />
         <option value="$PROJECT_DIR$/sina/sina/middlewares.py" />
@@ -143,10 +133,11 @@
         <option value="$PROJECT_DIR$/bosszhipin/bosszhipin/settings.py" />
         <option value="$PROJECT_DIR$/novel/novel/middlewares.py" />
         <option value="$PROJECT_DIR$/novel/novel/spiders/zhuxian.py" />
-        <option value="$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py" />
-        <option value="$PROJECT_DIR$/novel/novel/settings.py" />
-        <option value="$PROJECT_DIR$/novel/main.py" />
         <option value="$PROJECT_DIR$/novel/novel/spiders/douluodalu.py" />
+        <option value="$PROJECT_DIR$/novel/main.py" />
+        <option value="$PROJECT_DIR$/novel/novel/settings.py" />
+        <option value="$PROJECT_DIR$/novel/quanzhigaoshou.json" />
+        <option value="$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py" />
         <option value="$PROJECT_DIR$/novel/log.log" />
         <option value="$PROJECT_DIR$/novel/novel/pipelines.py" />
       </list>
@@ -219,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zhipin">
+  <component name="RunManager" selected="Python.quanzhigaoshou">
     <configuration name="pythonComment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MySpiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +225,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comment/comment/spiders/pythonComment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quanzhigaoshou" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MySpiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/novel/novel/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,6 +301,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quanzhigaoshou" />
         <item itemvalue="Python.zhipin" />
         <item itemvalue="Python.pythonComment" />
         <item itemvalue="Python.zhuxian" />
@@ -314,7 +328,7 @@
       <workItem from="1559178098822" duration="3095000" />
       <workItem from="1559183095736" duration="1939000" />
       <workItem from="1559194008952" duration="92000" />
-      <workItem from="1559263915217" duration="901000" />
+      <workItem from="1559263915217" duration="7614000" />
     </task>
     <task id="LOCAL-00001" summary="盗墓笔记小说爬虫">
       <created>1558850929227</created>
@@ -442,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559135316665</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="斗罗大陆小说爬虫">
+      <created>1559264873864</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559264873864</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81049000" />
+    <option name="totallyTimeSpent" value="87762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -457,7 +478,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,7 +487,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.36334056" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.36876357" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.38720173" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.36944744" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -515,31 +536,16 @@
     <MESSAGE value="腾讯招聘爬虫" />
     <MESSAGE value="Boss直聘爬虫" />
     <MESSAGE value="全职高手小说爬虫" />
-    <option name="LAST_COMMIT_MESSAGE" value="全职高手小说爬虫" />
+    <MESSAGE value="斗罗大陆小说爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="斗罗大陆小说爬虫" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MySpiders$zhipin.coverage" NAME="zhipin Coverage Results" MODIFIED="1559110782370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bosszhipin/bosszhipin/spiders" />
     <SUITE FILE_PATH="coverage/MySpiders$zhuxian.coverage" NAME="zhuxian Coverage Results" MODIFIED="1559005127044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/novel/novel/spiders" />
+    <SUITE FILE_PATH="coverage/MySpiders$quanzhigaoshou.coverage" NAME="quanzhigaoshou Coverage Results" MODIFIED="1559267818642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/novel/novel/spiders" />
     <SUITE FILE_PATH="coverage/MySpiders$pythonComment.coverage" NAME="pythonComment Coverage Results" MODIFIED="1559014643205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comment/comment/spiders" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movie/movie/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/movie/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" selection-start-line="21" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="e#194#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/movie/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -851,20 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="135" column="24" lean-forward="true" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/novel/novel/spiders/daomubiji.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -875,34 +867,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/items.py">
+    <entry file="file://$PROJECT_DIR$/novel/douluodalu.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="1363">
+          <caret line="603" column="52" lean-forward="true" selection-start-line="603" selection-start-column="52" selection-end-line="603" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/quanzhigaoshou.json">
+    <entry file="file://$PROJECT_DIR$/novel/novel/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/spiders/douluodalu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/novel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="125" column="51" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/novel/spiders/quanzhigaoshou.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="101" lean-forward="true" selection-start-line="31" selection-start-column="101" selection-end-line="31" selection-end-column="101" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/novel/spiders/douluodalu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="226">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -912,10 +918,13 @@
     <entry file="file://$PROJECT_DIR$/novel/log.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/novel/quanzhigaoshou.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/novel/novel/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#194#208#0" expanded="true" />
           </folding>

@@ -131,7 +131,7 @@ USER_AGENT_LIST = [
 MONGODB_HOST = '127.0.0.1'
 MONGODB_PORT = 27017
 MONGODB_DBNAME = 'MySpider'
-MONGODB_DOCNAME = 'douluodalu' # daomubiji盗墓笔记 zhuxian诛仙 quanzhigaoshou全职高手 douluodalu
+MONGODB_DOCNAME = 'quanzhigaoshou' # daomubiji盗墓笔记 zhuxian诛仙 quanzhigaoshou全职高手 douluodalu斗罗大陆
 
 REDIS_HOST = '217.0.0.1'
 REDIS_PORT = 6379
