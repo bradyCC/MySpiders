@@ -41,5 +41,5 @@ class ZhipinSpider(CrawlSpider):
                 item['post'] = str(listItem.xpath('.//div[@class="info-publis"]/h3').get().replace('</h3>', '')).split('<em class="vline"></em>')[1]
             else:
                 item['post'] = ''
-            item['detailUrl'] = 'https://www.zhipin.com' + listItem.xpath('.//div[@class="info-primary"]//a/@href').get()
+            item['detailUrl'] = 'https://www.zhipin.com' + str(listItem.xpath('.//div[@class="info-primary"]//a/@href').get())
             yield item

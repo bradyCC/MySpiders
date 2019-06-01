@@ -1,0 +1,103 @@
+2019-06-01 17:23:21 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/5/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:26:55 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/818/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:26:59 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/835/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:27:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/959/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:27:58 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/1030/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:27:58 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/489/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:28:20 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/513/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:28:21 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/2357/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:28:32 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/2414/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:28:43 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/1150/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:29:05 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/228/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:29:13 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/2719/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:29:14 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/169/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:29:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/89/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:29:35 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/1279/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:29:35 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/1243/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:30:14 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/1422/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 17:31:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/316/tel:4000580638>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\twisted\internet\defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\Python37\lib\site-packages\twisted\python\failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\Python37\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.kuaidaili.com/free/intr/316/tel:4000580638 took longer than 180.0 seconds..
+2019-06-01 17:31:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kuaidaili.com/free/intr/1658/>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
