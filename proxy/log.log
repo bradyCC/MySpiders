@@ -1,0 +1,138 @@
+2019-06-01 14:19:50 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/4>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\twisted\internet\defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\Python37\lib\site-packages\twisted\python\failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\Python37\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.xicidaili.com/nt/4 took longer than 180.0 seconds..
+2019-06-01 14:24:34 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/702>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:35:32 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/617>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:36:08 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/113>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:40:07 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/142>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:40:52 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/584>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:43:23 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/569>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:49:47 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/193>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:52:04 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/526>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:54:01 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/209>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:54:51 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/216>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 116.196.90.176:3128 [{'status': 503, 'reason': b'Service Unavailable'}]
+2019-06-01 14:55:30 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/512>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:56:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/502>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 116.196.90.176:3128 [{'status': 503, 'reason': b'Service Unavailable'}]
+2019-06-01 14:56:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/223>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 14:57:23 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/501>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:05:04 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/253>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:12:06 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/422>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:12:18 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/419>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:17:25 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/329>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:19:50 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/374>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:21:39 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/366>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:22:14 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/344>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:22:17 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/357>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:22:21 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/356>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:22:24 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/355>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2019-06-01 15:22:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.xicidaili.com/nt/358>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
