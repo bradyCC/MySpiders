@@ -21,7 +21,7 @@ class ProxyPipeline(object):
         client = pymongo.MongoClient(host=host, port=port)
         db = client[dbName]
         self.post = db[settings['MONGODB_DOCNAME']]
-        self.file = codecs.open('ip.json', 'w', 'utf-8')
+        self.file = codecs.open('ipFastP.json', 'w', 'utf-8')
         self.file.write('[')
 
     def open_spider(self, spider):
@@ -29,6 +29,11 @@ class ProxyPipeline(object):
 
     def process_item(self, item, spider):
         if spider.name == 'xici':
+            data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
+            self.file.write(data)
+            # dataInfo = dict(item)
+            # self.post.insert(dataInfo)
+        if spider.name == 'fast':
             data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
             self.file.write(data)
             # dataInfo = dict(item)

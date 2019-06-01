@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'proxy.spiders'
 LOG_LEVEL = 'WARNING'
 LOG_FILE = './log.log'
 
-DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 3
 COOKIES_ENABLES = False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
