@@ -59,8 +59,8 @@ ROBOTSTXT_OBEY = False
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'bosszhipin.middlewares.BosszhipinDownloaderMiddleware': 543,
-    'bosszhipin.middlewares.RandomUserAgentMiddleware': 544,
-    'bosszhipin.middlewares.CheckUserAgentMiddleware': 545,
+    # 'bosszhipin.middlewares.RandomUserAgentMiddleware': 544,
+    # 'bosszhipin.middlewares.CheckUserAgentMiddleware': 545,
 }
 
 # Enable or disable extensions
