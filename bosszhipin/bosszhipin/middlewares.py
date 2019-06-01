@@ -103,6 +103,7 @@ class BosszhipinDownloaderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
+
 class RandomUserAgentMiddleware(object):
 
     def process_request(self, request, spider):
@@ -114,4 +115,25 @@ class CheckUserAgentMiddleware(object):
 
     def process_response(self, request, response, spider):
         print(request.headers["User-Agent"])
+        return response
+
+
+class ProxyMiddleware(object):
+
+    def __init__(self, ip):
+        self.ip = ip
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(ip=crawler.settings.get('PROXIES'))
+
+    def process_request(self, request, spider):
+        ip = random.choice(self.ip)
+        print('测试IP:', ip)
+        request.meta['proxy'] = ip
+
+class CheckProxyMiddleware(object):
+
+    def process_response(self, request, response, spider):
+        print('代理IP:', request.meta['proxy'])
         return response

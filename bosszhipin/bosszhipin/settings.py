@@ -61,6 +61,8 @@ DOWNLOADER_MIDDLEWARES = {
     'bosszhipin.middlewares.BosszhipinDownloaderMiddleware': 543,
     # 'bosszhipin.middlewares.RandomUserAgentMiddleware': 544,
     # 'bosszhipin.middlewares.CheckUserAgentMiddleware': 545,
+    'bosszhipin.middlewares.ProxyMiddleware': 546,
+    'bosszhipin.middlewares.CheckProxyMiddleware': 547
 }
 
 # Enable or disable extensions
@@ -132,3 +134,19 @@ MONGODB_HOST = '127.0.0.1'
 MONGODB_PORT = 27017
 MONGODB_DBNAME = 'MySpider'
 MONGODB_DOCNAME = 'Boss'   # Boss直聘
+
+PROXIES = [
+    'http://111.198.154.116:8888',
+    'http://124.207.82.166:8008',
+    'http://59.37.18.243:3128',
+    'http://218.60.8.83:3129',
+    'http://14.20.235.201:9797',
+    'http://58.243.50.184:53281',
+    'http://101.251.216.103:8080',
+    'http://220.180.50.14:53281',
+    'http://183.30.204.113:9999',
+    'http://123.172.68.180:53281',
+    'http://119.176.85.226:9999',
+    'http://121.40.78.138:3128',
+    'http://116.196.90.176:3128',
+]
