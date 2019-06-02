@@ -21,18 +21,18 @@ class ProxyPipeline(object):
         client = pymongo.MongoClient(host=host, port=port)
         db = client[dbName]
         self.post = db[settings['MONGODB_DOCNAME']]
-        self.file = codecs.open('ipFastP.json', 'w', 'utf-8')
-        self.file.write('[')
+        # self.file = codecs.open('ipFastP.json', 'w', 'utf-8')
+        # self.file.write('[')
 
     def open_spider(self, spider):
         print('This spider is starting!')
 
     def process_item(self, item, spider):
         if spider.name == 'xici':
-            data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
-            self.file.write(data)
-            # dataInfo = dict(item)
-            # self.post.insert(dataInfo)
+            # data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
+            # self.file.write(data)
+            dataInfo = dict(item)
+            self.post.insert(dataInfo)
         if spider.name == 'fast':
             data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
             self.file.write(data)
@@ -42,7 +42,7 @@ class ProxyPipeline(object):
 
     def close_spider(self, spider):
         print('This spider is end!')
-        self.file.seek(-2, os.SEEK_END)     # 定位到倒数第二个字符，即最后一个逗号
-        self.file.truncate()                # 删除最后一个逗号
-        self.file.write(']')
-        self.file.close()
+        # self.file.seek(-2, os.SEEK_END)     # 定位到倒数第二个字符，即最后一个逗号
+        # self.file.truncate()                # 删除最后一个逗号
+        # self.file.write(']')
+        # self.file.close()

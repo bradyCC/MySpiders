@@ -150,3 +150,7 @@ PROXIES = [
     'http://121.40.78.138:3128',
     'http://116.196.90.176:3128',
 ]
+
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+SCHEDULER_PERSIST = True
