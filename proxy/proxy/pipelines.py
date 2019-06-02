@@ -34,10 +34,10 @@ class ProxyPipeline(object):
             dataInfo = dict(item)
             self.post.insert(dataInfo)
         if spider.name == 'fast':
-            data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
-            self.file.write(data)
-            # dataInfo = dict(item)
-            # self.post.insert(dataInfo)
+            # data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
+            # self.file.write(data)
+            dataInfo = dict(item)
+            self.post.insert(dataInfo)
         return item
 
     def close_spider(self, spider):
