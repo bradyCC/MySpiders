@@ -133,7 +133,7 @@ USER_AGENT_LIST = [
 MONGODB_HOST = '127.0.0.1'
 MONGODB_PORT = 27017
 MONGODB_DBNAME = 'MySpider'
-MONGODB_DOCNAME = 'ipFast'   # 西刺代理
+MONGODB_DOCNAME = 'ipData'   # 西刺代理
 
 PROXIES = [
     'https://59.37.18.243:3128',

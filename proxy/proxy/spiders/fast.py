@@ -16,8 +16,8 @@ class FastSpider(RedisCrawlSpider):
         print(response.url)
 
     rules = (
-        Rule(LinkExtractor(allow=r'/free/inha/\d+'), callback='parse_item', follow=True),
-        # Rule(LinkExtractor(allow=r'/free/intr/\d+'), callback='parse_item', follow=True),
+        # Rule(LinkExtractor(allow=r'/free/inha/\d+'), callback='parse_item', follow=True),
+        Rule(LinkExtractor(allow=r'/free/intr/\d+'), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
