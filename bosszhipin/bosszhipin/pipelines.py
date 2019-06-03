@@ -29,12 +29,11 @@ class BosszhipinPipeline(object):
 
     def process_item(self, item, spider):
         if spider.name == 'zhipin':
-            pass
             # print(item)
             # data = json.dumps(dict(item), ensure_ascii=False) + ',\n'
             # self.file.write(data)
-            # dataInfo = dict(item)
-            # self.post.insert(dataInfo)
+            dataInfo = dict(item)
+            self.post.insert(dataInfo)
         return item
 
     def close_spider(self, spider):

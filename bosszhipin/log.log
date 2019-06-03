@@ -1,0 +1,5 @@
+2019-06-03 16:45:10 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.zhipin.com/verify/slider?u=IA%7E%7E&callbackUrl=http%3A%2F%2Fwww.zhipin.com%2Fc101120100-p100901%2F%3Fpage%3D0&p=JPJY4m-oRnIeRHIw>
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
