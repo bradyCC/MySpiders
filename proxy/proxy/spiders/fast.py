@@ -3,12 +3,14 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from proxy.items import ProxyItem
+from scrapy_redis.spiders import RedisCrawlSpider
 
-class FastSpider(CrawlSpider):
+class FastSpider(RedisCrawlSpider):
     name = 'fast'
+    redis_key = 'myspider:start_urls'
     # allowed_domains = ['kuaidaili.com']
     # start_urls = ['https://www.kuaidaili.com/free/inha/']       # 高匿代理
-    start_urls = ['https://www.kuaidaili.com/free/intr/']     # 透明代理
+    # start_urls = ['https://www.kuaidaili.com/free/intr/']     # 透明代理
 
     def parse_start_url(self, response):
         print(response.url)

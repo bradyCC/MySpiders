@@ -3,11 +3,13 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from proxy.items import ProxyItem
+from scrapy_redis.spiders import RedisCrawlSpider
 
-class XiciSpider(CrawlSpider):
+class XiciSpider(RedisCrawlSpider):
     name = 'xici'
+    redis_key = 'myspider:start_urls'
     # allowed_domains = ['xicidaili.com']
-    start_urls = ['http://www.xicidaili.com']
+    # start_urls = ['http://www.xicidaili.com']
 
     def parse_start_url(self, response):
         print(response)

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for proxy project
+# Scrapy settings for skill project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,10 +9,10 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'proxy'
+BOT_NAME = 'skill'
 
-SPIDER_MODULES = ['proxy.spiders']
-NEWSPIDER_MODULE = 'proxy.spiders'
+SPIDER_MODULES = ['skill.spiders']
+NEWSPIDER_MODULE = 'skill.spiders'
 
 LOG_LEVEL = 'WARNING'
 LOG_FILE = './log.log'
@@ -52,17 +52,17 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'proxy.middlewares.ProxySpiderMiddleware': 543,
+#    'skill.middlewares.SkillSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'proxy.middlewares.ProxyDownloaderMiddleware': 543,
-    # 'proxy.middlewares.RandomUserAgentMiddleware': 544,
-    # 'proxy.middlewares.CheckUserAgentMiddleware': 545,
-    'proxy.middlewares.ProxyMiddleware': 546,
-    'proxy.middlewares.CheckProxyMiddleware': 547
+    'skill.middlewares.SkillDownloaderMiddleware': 543,
+    # 'skill.middlewares.RandomUserAgentMiddleware': 544,
+    # 'skill.middlewares.CheckUserAgentMiddleware': 545,
+    'skill.middlewares.ProxyMiddleware': 546,
+    'skill.middlewares.CheckProxyMiddleware': 547
 }
 
 # Enable or disable extensions
@@ -74,7 +74,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'proxy.pipelines.ProxyPipeline': 300,
+    'skill.pipelines.SkillPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -133,37 +133,20 @@ USER_AGENT_LIST = [
 MONGODB_HOST = '127.0.0.1'
 MONGODB_PORT = 27017
 MONGODB_DBNAME = 'MySpider'
-MONGODB_DOCNAME = 'ipData'   # 西刺代理
+MONGODB_DOCNAME = 'pythontab'   # python社区
 
 PROXIES = [
-    'https://59.37.18.243:3128',
-    'https://183.30.204.113:9999',
-    'https://121.17.174.121:9797',
-    'https://24.152.32.140:53281',
-    'https://111.198.154.116:8888',
-    'https://124.207.82.166:8008',
-    'https://14.115.105.71:9797',
-    'http://221.4.150.7:8181',
-    'http://183.129.207.86:11206',
-    'https://182.18.13.149:53281',
-    'http://121.69.37.6:9797',
-    'https://218.60.8.83:3129',
-    'https://111.202.37.195:8080',
-    'https://183.129.207.78:18118',
-    'https://14.20.235.201:9797',
-    'http://25.46.0.62:53281',
-    'https://218.241.219.226:9999',
-    'https://113.140.1.82:53281',
-    'https://122.141.74.186:8080',
-    'https://163.125.70.28:8888',
-    'https://124.205.143.21:32612',
-    'http://121.79.131.58:8080',
+    'http://111.198.154.116:8888',
+    'http://124.207.82.166:8008',
+    'http://59.37.18.243:3128',
+    'http://218.60.8.83:3129',
+    'http://14.20.235.201:9797',
     'http://58.243.50.184:53281',
     'http://101.251.216.103:8080',
-    'https://61.145.182.27:53281',
-    'http://182.111.129.37:53281'
+    'http://220.180.50.14:53281',
+    'http://183.30.204.113:9999',
+    'http://123.172.68.180:53281',
+    'http://119.176.85.226:9999',
+    'http://121.40.78.138:3128',
+    'http://116.196.90.176:3128',
 ]
-
-SCHEDULER = "scrapy_redis.scheduler.Scheduler"
-DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
-SCHEDULER_PERSIST = True
