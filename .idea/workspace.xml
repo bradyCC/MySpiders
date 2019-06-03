@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="656c1014-4516-4f1c-9b4a-e92bbdd7a2e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proxy/ipFastG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/ipFastP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/proxy/spiders/fast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/proxy/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/proxy/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/proxy/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/proxy/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/proxy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/proxy/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,29 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proxy/proxy/spiders/fast.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxy/log.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,24 +112,6 @@
             <path>
               <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,7 +271,8 @@
       <workItem from="1559352201681" duration="1941000" />
       <workItem from="1559355373033" duration="16157000" />
       <workItem from="1559378509196" duration="884000" />
-      <workItem from="1559379531947" duration="1888000" />
+      <workItem from="1559379531947" duration="3059000" />
+      <workItem from="1559523124489" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="盗墓笔记小说爬虫">
       <created>1558850929227</created>
@@ -496,17 +449,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559375709000</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="快代理爬虫">
+      <created>1559381661660</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1559381661660</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110929000" />
+    <option name="totallyTimeSpent" value="112134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15831557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -520,7 +479,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.4154013" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" visible="true" weight="0.4143167" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" visible="true" weight="0.4143167" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.36876357" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -573,7 +532,8 @@
     <MESSAGE value="Boss直聘爬虫" />
     <MESSAGE value="Boss直聘爬虫配置动态IP" />
     <MESSAGE value="西刺代理爬虫" />
-    <option name="LAST_COMMIT_MESSAGE" value="西刺代理爬虫" />
+    <MESSAGE value="快代理爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="快代理爬虫" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MySpiders$zhipin.coverage" NAME="zhipin Coverage Results" MODIFIED="1559110782370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bosszhipin/bosszhipin/spiders" />
@@ -905,27 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/ipFastG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="13525" column="71" selection-start-line="13525" selection-start-column="71" selection-end-line="13525" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/ipFastP.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215971">
-          <caret line="17" column="121" lean-forward="true" selection-start-line="17" selection-start-column="121" selection-end-line="17" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/log.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/proxy/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -943,10 +882,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/ipFastG.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="13526" column="60" selection-start-line="13526" selection-start-column="60" selection-end-line="13526" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/ipFastP.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="32604" column="75" lean-forward="true" selection-start-line="32604" selection-start-column="75" selection-end-line="32604" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="98" column="70" selection-start-line="98" selection-start-column="70" selection-end-line="98" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/proxy/spiders/fast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="272">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
